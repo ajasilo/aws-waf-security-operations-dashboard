@@ -1,16 +1,100 @@
-# React + Vite
+# AWS WAF Security Operations Dashboard
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Cloud Security Team dashboard for AWS WAF and Radware security monitoring.
 
-Currently, two official plugins are available:
+## Overview
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+This project simulates a Security Operations Center (SOC) dashboard used by Cloud Security Engineers to monitor:
 
-## React Compiler
+- AWS WAF Security Events
+- Radware WAF Security Events
+- OWASP Top 10 Attacks
+- PCI DSS Monitoring
+- Application Protection Metrics
+- Security Posture Reporting
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+The dashboard provides real-time visibility into blocked attacks, targeted applications, critical events, and compliance status.
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Features
+
+### Security Monitoring
+
+- Protected Applications Overview
+- Blocked Attack Statistics
+- Critical Event Monitoring
+- Security Posture Score
+
+### Threat Visibility
+
+- SQL Injection Detection
+- Cross-Site Scripting (XSS)
+- API Abuse Monitoring
+- Broken Access Control Events
+
+### Security Operations
+
+- Top Targeted Applications
+- Recent Security Events
+- Threat Prioritization
+- Incident Review Support
+
+### Compliance Monitoring
+
+- PCI DSS 6.4.3
+- PCI DSS 11.6.1
+- PCI DSS 12.10
+
+### OWASP Top 10 Coverage
+
+- A01 Broken Access Control
+- A03 Injection
+- A05 Security Misconfiguration
+- A07 Identification and Authentication Failures
+
+---
+
+## Technology Stack
+
+- React
+- Vite
+- JavaScript
+- CSS
+
+---
+
+## Dashboard Preview
+
+Cloud Security Team Security Operations Center Dashboard
+
+- AWS WAF Monitoring
+- Radware Security Monitoring
+- Attack Visibility
+- Compliance Monitoring
+- Executive Security Reporting
+
+---
+
+## Learning Objectives
+
+This project demonstrates:
+
+- Cloud Security Monitoring
+- WAF Operations
+- Security Dashboard Design
+- PCI DSS Reporting Concepts
+- OWASP Attack Monitoring
+- Security Operations Center Visualization
+
+---
+
+## Author
+
+Alpie Asilo
+
+Junior Cloud Security Engineer
+
+Cloud Security Team
+
+Philippines
